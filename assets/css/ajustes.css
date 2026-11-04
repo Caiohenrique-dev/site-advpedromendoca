@@ -1125,3 +1125,22 @@
 .footer-modern .developer-portfolio:hover {
     color: #C7D8E7 !important;
 }
+
+
+.hero-banner .capa-principal {
+    display: block;
+    width: 100%;
+    height: 42vw;
+    max-height: 760px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 768px) {
+    .hero-banner .capa-principal {
+        height: 155vw;
+        max-height: none;
+        object-fit: cover;
+        object-position: center top;
+    }
+}
