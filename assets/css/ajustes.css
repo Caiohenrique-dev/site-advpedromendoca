@@ -2265,9 +2265,12 @@
 
 /* Linha superior dourada */
 
+
+/* Linha superior na mesma cor da navbar */
+
 .top-line {
     height: 3px !important;
-    background: #D4A65C !important;
+    background: #550C29 !important;
     border: none !important;
     box-shadow: none !important;
 }
