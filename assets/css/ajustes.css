@@ -2262,3 +2262,12 @@
         white-space: normal;
     }
 }
+
+/* Linha superior dourada */
+
+.top-line {
+    height: 3px !important;
+    background: #D4A65C !important;
+    border: none !important;
+    box-shadow: none !important;
+}
