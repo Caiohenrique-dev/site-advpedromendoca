@@ -1144,3 +1144,1121 @@
         object-position: center top;
     }
 }
+ 
+
+/* ==========================================
+   PEDRO MENDONÇA ADVOCACIA
+   IDENTIDADE VISUAL CONSOLIDADA
+   ========================================== */
+
+:root {
+    --vinho: #550C29;
+    --vinho-escuro: #390719;
+    --vinho-claro: #8B4160;
+
+    --navy-main: #550C29;
+    --navy-hover: #390719;
+    --navy-light: #8B4160;
+    --navy-text: #F2E6EB;
+
+    --accent: #111111;
+    --accent-dark: #111111;
+    --accent-light: #CCCCCC;
+
+    --ink: #111111;
+    --text: #111111;
+    --muted: #333333;
+
+    --cream: #F7F7F7;
+    --warm: #F2F2F2;
+    --line: #E3E3E3;
+}
+
+/* ==========================================
+   1. NAVBAR VINHO
+   ========================================== */
+
+.site-header {
+    background: var(--vinho);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+}
+
+.site-header .brand-type strong,
+.site-header .brand-type-refined strong {
+    color: #FFFFFF;
+}
+
+.site-header .brand-type small,
+.site-header .brand-type-refined small {
+    color: #F2E6EB;
+}
+
+.site-header .desktop-nav a {
+    color: #F2E6EB;
+}
+
+.site-header .desktop-nav a:hover,
+.site-header .desktop-nav a.active,
+.site-header .desktop-nav a[aria-current] {
+    color: #FFFFFF;
+}
+
+.site-header .desktop-nav a::after {
+    background: #FFFFFF;
+}
+
+.site-header .nav-contact,
+.site-header .refined-nav-button {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #111111;
+    box-shadow: none;
+}
+
+.site-header .nav-contact:hover,
+.site-header .refined-nav-button:hover {
+    background: #F1F1F1;
+    border-color: #F1F1F1;
+    color: #111111;
+}
+
+/* Menu mobile */
+
+.site-header .menu-toggle {
+    background: transparent;
+    border-color: rgba(255,255,255,0.4);
+}
+
+.site-header .menu-toggle span {
+    background: #FFFFFF;
+}
+
+.site-header .mobile-nav:not([hidden]) {
+    background: var(--vinho);
+}
+
+.site-header .mobile-nav a {
+    color: #FFFFFF;
+}
+
+.site-header .mobile-nav a:hover {
+    color: #F2E6EB;
+}
+
+/* ==========================================
+   2. RODAPÉ VINHO
+   ========================================== */
+
+.site-footer.footer-modern {
+    background: var(--vinho);
+    border-top: 3px solid var(--vinho-claro);
+    color: #FFFFFF;
+}
+
+.footer-modern .brand-type strong,
+.footer-modern .footer-links h4,
+.footer-modern .oab-number,
+.footer-modern .footer-dev-text,
+.footer-modern .footer-dev-text span,
+.footer-modern .footer-credit a,
+.footer-modern .developer-portfolio {
+    color: #FFFFFF !important;
+}
+
+.footer-modern .brand-type small,
+.footer-modern .footer-profile > p,
+.footer-modern .footer-qualification,
+.footer-modern .footer-links a,
+.footer-modern .footer-bottom-info,
+.footer-modern .footer-credit {
+    color: #F2E6EB;
+}
+
+.footer-modern .footer-links a:hover,
+.footer-modern .footer-credit a:hover,
+.footer-modern .developer-portfolio:hover {
+    color: #FFFFFF !important;
+}
+
+.footer-modern .footer-bottom {
+    border-top-color: rgba(255,255,255,0.20);
+}
+
+/* ==========================================
+   3. BOTÕES NEUTROS E PROFISSIONAIS
+   ========================================== */
+
+.btn,
+.btn-gold,
+.btn-outline-light,
+.expertise .practice-action,
+.expertise .card-more,
+.expertise .areas-contact,
+.contact-panel .form-submit,
+.floating-contact:not(.floating-contact-icon) {
+    background: #FFFFFF;
+    border: 1px solid #BFC0C3;
+    color: #111111;
+    box-shadow: none;
+}
+
+.btn:hover,
+.btn-gold:hover,
+.btn-outline-light:hover,
+.expertise .practice-action:hover,
+.expertise .card-more:hover,
+.expertise .areas-contact:hover,
+.contact-panel .form-submit:hover,
+.floating-contact:not(.floating-contact-icon):hover {
+    background: #F2F2F2;
+    border-color: #777777;
+    color: #111111;
+}
+
+/* Botão flutuante do WhatsApp */
+
+.floating-contact-icon {
+    background: #25D366;
+    border-color: #25D366;
+    color: #FFFFFF;
+}
+
+.floating-contact-icon:hover {
+    background: #1EBE5D;
+    border-color: #1EBE5D;
+}
+
+/* ==========================================
+   4. TEXTOS DAS SEÇÕES EM PRETO
+   ========================================== */
+
+.eyebrow,
+.eyebrow.light,
+.step-no,
+.article-category,
+.article-bottom,
+.simple-link,
+.form-kicker,
+.contact-method small,
+.contact-social-text strong,
+.contact-social-text small {
+    color: #111111;
+}
+
+.expertise {
+    background: linear-gradient(
+        165deg,
+        #FFFFFF,
+        #F7F7F7 75%
+    );
+}
+
+.contact {
+    background: linear-gradient(
+        135deg,
+        #F7F7F7,
+        #FFFFFF 75%
+    );
+}
+
+/* ==========================================
+   5. FOTO "ÉTICA. CLAREZA. RESPEITO."
+   ========================================== */
+
+.about-art-inner > span,
+.about-art-inner strong,
+.about-stamp,
+.about-stamp span {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 9px rgba(0,0,0,0.5);
+}
+
+.about-art-inner i {
+    background: #FFFFFF;
+}
+
+.about-art-border {
+    border-color: rgba(255,255,255,0.55);
+}
+
+/* ==========================================
+   6. ARTIGOS COM TEXTO BRANCO SOBRE FOTOS
+   ========================================== */
+
+.insights .article-visual {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.insights .article-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    filter: none;
+}
+
+/* Degradê preto discreto para leitura */
+
+.insights .article-visual::before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border: 0;
+    border-radius: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.75) 0%,
+        rgba(0,0,0,0.24) 46%,
+        transparent 85%
+    );
+}
+
+.insights .article-visual::after {
+    display: none;
+}
+
+/* Títulos brancos diretamente sobre a foto */
+
+.insights .article-visual-label {
+    position: relative;
+    z-index: 2;
+
+    display: block;
+    align-self: flex-end;
+
+    width: auto;
+    margin: 0;
+    padding: 22px;
+
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.45);
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Textos abaixo das fotografias */
+
+.insights .article-category,
+.insights .article-info h3,
+.insights .article-bottom,
+.insights .article-info p {
+    color: #111111;
+}
+
+/* ==========================================
+   7. WHATSAPP E INSTAGRAM
+   ========================================== */
+
+.contact-method.contact-social {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+
+.contact-method.contact-social:hover {
+    background: #FFFFFF;
+    border-color: #BBBBBB;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+}
+
+/* WhatsApp */
+
+.contact-method.contact-social
+> .contact-social-icon.whatsapp-icon {
+    background: #25D366;
+    border: 0;
+    color: #FFFFFF;
+}
+
+/* Instagram */
+
+.contact-method.contact-social
+> .contact-social-icon.instagram-icon {
+    background: linear-gradient(
+        135deg,
+        #833AB4 0%,
+        #C13584 30%,
+        #E1306C 55%,
+        #F77737 80%,
+        #FCAF45 100%
+    );
+
+    border: 0;
+    color: #FFFFFF;
+}
+
+/* SVGs preservados sem deformar o desenho */
+
+.contact-method.contact-social
+> .contact-social-icon svg {
+    display: block;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* Não forçar fill nos caminhos dos SVGs:
+   isso pode deformar ícones com contornos. */
+
+.contact-method.contact-social
+.contact-social-text strong,
+.contact-method.contact-social
+.contact-social-text small {
+    color: #111111;
+}
+
+/* ==========================================
+   8. RESPONSIVIDADE
+   ========================================== */
+
+@media (max-width: 720px) {
+
+    .insights .article-visual-label {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .about-art-inner > span,
+    .about-art-inner strong,
+    .about-stamp,
+    .about-stamp span {
+        color: #FFFFFF !important;
+    }
+
+}
+
+/* ==========================================
+   AJUSTES DE ACABAMENTO
+   PEDRO MENDONÇA ADVOCACIA
+   ========================================== */
+
+/* 1. TEXTO BRANCO NO RODAPÉ VINHO */
+
+.site-footer.footer-modern .footer-profile > p,
+.site-footer.footer-modern .footer-main p,
+.site-footer.footer-modern .footer-bottom-info,
+.site-footer.footer-modern .footer-qualification {
+    color: #FFFFFF !important;
+}
+
+/* 2. TEXTO SOBRE O ADVOGADO EM PRETO */
+
+.about-copy .about-lead,
+.about-copy p,
+.about-copy h2,
+.about-copy strong {
+    color: #111111 !important;
+}
+
+/* 3. BOTÕES DAS ÁREAS JURÍDICAS
+   MESMA LARGURA, ALTURA E ALINHAMENTO */
+
+.expertise .practice-card .practice-action,
+.expertise .practice-card .card-more {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: calc(100% - 44px) !important;
+    min-height: 46px !important;
+
+    margin: auto 22px 22px !important;
+    padding: 10px 8px !important;
+
+    box-sizing: border-box !important;
+
+    background: #FFFFFF !important;
+    border: 1px solid #CFCFCF !important;
+    border-radius: 6px !important;
+
+    color: #111111 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease !important;
+}
+
+.expertise .practice-card .practice-action:hover,
+.expertise .practice-card .card-more:hover {
+    background: #F3F3F3 !important;
+    border-color: #999999 !important;
+    color: #111111 !important;
+}
+
+/* 4. OUTROS CONTEÚDOS E CANAIS DE CONTATO
+   COM O MESMO DESIGN DE BOTÃO */
+
+.article-tail > a,
+.article-tail .article-back {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    min-height: 52px !important;
+    min-width: 170px !important;
+
+    margin: 0 !important;
+    padding: 12px 18px !important;
+
+    background: #FFFFFF !important;
+    border: 1px solid #CFCFCF !important;
+    border-radius: 6px !important;
+
+    color: #111111 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+    text-decoration: none !important;
+
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+}
+
+.article-tail > a:hover,
+.article-tail .article-back:hover {
+    background: #F3F3F3 !important;
+    border-color: #999999 !important;
+    color: #111111 !important;
+}
+
+/* 5. RESPONSIVIDADE MOBILE */
+
+@media (max-width: 720px) {
+
+    .expertise .practice-card .practice-action,
+    .expertise .practice-card .card-more {
+        width: calc(100% - 28px) !important;
+        min-height: 46px !important;
+
+        margin: auto 14px 14px !important;
+        padding: 9px 5px !important;
+
+        font-size: 11px !important;
+    }
+
+    .article-tail {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+    }
+
+    .article-tail > a,
+    .article-tail .article-back {
+        flex: 1 1 150px !important;
+        min-width: 0 !important;
+    }
+}
+
+/* ==========================================
+   CORREÇÃO DO CARD DIREITO IMOBILIÁRIO
+   ========================================== */
+
+/* Remove espaçamentos diferentes do quarto card */
+
+.expertise .practice-grid > .practice-card:nth-child(4) {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Imagem ocupando toda a largura */
+
+.expertise .practice-grid > .practice-card:nth-child(4)
+.practice-image {
+    width: 100% !important;
+    height: 165px !important;
+    min-height: 165px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+}
+
+.expertise .practice-grid > .practice-card:nth-child(4)
+.practice-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: cover !important;
+}
+
+/* Espaçamento igual ao outro card */
+
+.expertise .practice-grid > .practice-card:nth-child(4)
+.practice-content {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 16px 14px 10px !important;
+    flex: 1 !important;
+}
+
+/* Botão ocupando a mesma largura */
+
+.expertise .practice-grid > .practice-card:nth-child(4)
+.practice-action {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-self: stretch !important;
+
+    width: auto !important;
+    min-height: 56px !important;
+    margin: auto 14px 14px !important;
+    padding: 10px 6px !important;
+
+    background: #FFFFFF !important;
+    border: 1px solid #CFCFCF !important;
+    border-radius: 6px !important;
+
+    color: #111111 !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+    .expertise .practice-grid > .practice-card:nth-child(4)
+    .practice-image {
+        height: 150px !important;
+        min-height: 150px !important;
+    }
+}
+  
+
+
+/* ==========================================
+   FORMULÁRIO DE CONTATO PROFISSIONAL
+   PEDRO MENDONÇA ADVOCACIA
+   ========================================== */
+
+/* Fundo da seção de contato */
+
+.contact {
+    background: #F7F8FA !important;
+}
+
+/* Card principal do formulário */
+
+.contact .contact-panel {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    overflow: hidden;
+
+    background: #FFFFFF !important;
+    border: 1px solid #E0E3E7 !important;
+    border-radius: 14px !important;
+
+    box-shadow:
+        0 15px 45px rgba(20, 27, 35, 0.055) !important;
+}
+
+/* Pequena linha superior */
+
+.contact .contact-panel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #24272B;
+}
+
+/* Identificação do formulário */
+
+.contact .form-kicker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+
+    color: #333333 !important;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.contact .form-kicker::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 17px;
+    background: #24272B;
+    border-radius: 3px;
+}
+
+/* Título */
+
+.contact .contact-panel h3 {
+    margin: 0 0 13px;
+
+    color: #111111 !important;
+    font-size: clamp(24px, 3vw, 30px);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.6px;
+}
+
+/* Texto de apresentação */
+
+.contact .contact-panel > p {
+    max-width: 480px;
+    margin: 0 0 30px;
+    padding-bottom: 23px;
+
+    border-bottom: 1px solid #ECEEF0;
+
+    color: #4D545C !important;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* Espaçamento entre os campos */
+
+.contact .contact-panel .field {
+    margin-bottom: 22px;
+}
+
+/* Rótulos */
+
+.contact .contact-panel .field label {
+    display: block;
+    margin-bottom: 9px;
+
+    color: #171717 !important;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Texto opcional */
+
+.contact .contact-panel .optional {
+    color: #747B83 !important;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Campos de entrada */
+
+.contact .contact-panel .field input,
+.contact .contact-panel .field select,
+.contact .contact-panel .field textarea {
+    display: block;
+    width: 100%;
+    min-width: 0;
+
+    padding: 14px 16px;
+
+    background: #FAFAFB !important;
+    border: 1px solid #D9DDE2 !important;
+    border-radius: 8px !important;
+
+    color: #171717 !important;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+
+    box-shadow: none !important;
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+/* Altura dos campos */
+
+.contact .contact-panel .field input,
+.contact .contact-panel .field select {
+    min-height: 53px;
+}
+
+/* Descrição */
+
+.contact .contact-panel .field textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Placeholder */
+
+.contact .contact-panel .field input::placeholder,
+.contact .contact-panel .field textarea::placeholder {
+    color: #929AA3 !important;
+    opacity: 1;
+}
+
+/* Destaque ao selecionar um campo */
+
+.contact .contact-panel .field input:focus,
+.contact .contact-panel .field select:focus,
+.contact .contact-panel .field textarea:focus {
+    background: #FFFFFF !important;
+    border-color: #59616A !important;
+
+    box-shadow:
+        0 0 0 3px rgba(35, 40, 45, 0.09) !important;
+}
+
+/* Botão principal */
+
+.contact .contact-panel .form-submit {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    min-height: 56px;
+
+    margin-top: 7px;
+    padding: 14px 20px;
+
+    background: #22262B !important;
+    border: 1px solid #22262B !important;
+    border-radius: 8px !important;
+
+    color: #FFFFFF !important;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+
+    box-shadow: none !important;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+/* Hover do botão */
+
+.contact .contact-panel .form-submit:hover {
+    background: #3B4148 !important;
+    border-color: #3B4148 !important;
+    color: #FFFFFF !important;
+
+    transform: translateY(-2px);
+}
+
+/* Foco pelo teclado */
+
+.contact .contact-panel .form-submit:focus-visible {
+    outline: 3px solid #A5ADB5;
+    outline-offset: 3px;
+}
+
+/* Mensagem de validação */
+
+.contact .contact-panel .form-feedback {
+    color: #25613A !important;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.contact .contact-panel .form-feedback.error {
+    color: #A12E2E !important;
+}
+
+/* Aviso abaixo do botão */
+
+.contact .contact-panel .form-note {
+    display: block;
+    margin-top: 18px;
+    padding-top: 17px;
+
+    border-top: 1px solid #ECEEF0;
+
+    color: #626A73 !important;
+    font-size: 11.5px;
+    line-height: 1.7;
+}
+
+/* ==========================================
+   RESPONSIVIDADE
+   ========================================== */
+
+@media (max-width: 720px) {
+
+    .contact .contact-panel {
+        padding: 28px 22px !important;
+        border-radius: 12px !important;
+    }
+
+    .contact .contact-panel h3 {
+        font-size: 25px;
+    }
+
+    .contact .contact-panel > p {
+        font-size: 13px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+    }
+
+    .contact .contact-panel .field {
+        margin-bottom: 19px;
+    }
+
+    .contact .contact-panel .field input,
+    .contact .contact-panel .field select {
+        min-height: 51px;
+    }
+
+    .contact .contact-panel .field textarea {
+        min-height: 115px;
+    }
+
+    .contact .contact-panel .form-submit {
+        min-height: 54px;
+        font-size: 13px;
+    }
+}
+
+/* ==========================================
+   AJUSTE DE CORES DO FORMULÁRIO
+   ========================================== */
+
+/* Linha superior em vermelho vinho */
+
+.contact .contact-panel::before {
+    background: #550C29 !important;
+}
+
+/* Detalhe ao lado de "Mensagem inicial" */
+
+.contact .form-kicker::before {
+    background: #550C29 !important;
+}
+
+/* Botão igual aos demais do site */
+
+.contact .contact-panel .form-submit {
+    background: #FFFFFF !important;
+    border: 1px solid #CFCFCF !important;
+    border-radius: 8px !important;
+
+    color: #111111 !important;
+    font-weight: 700 !important;
+
+    box-shadow: none !important;
+}
+
+/* Efeito ao passar o mouse */
+
+.contact .contact-panel .form-submit:hover {
+    background: #F3F3F3 !important;
+    border-color: #999999 !important;
+    color: #111111 !important;
+    transform: translateY(-2px);
+}
+
+/* Capas completas sem cortes */
+
+.hero-banner .capa-principal {
+    display: block;
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+}
+
+
+/* ==========================================
+   CAPA DESKTOP - IMAGEM COMPLETA
+   ========================================== */
+
+.hero-banner {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.hero-banner picture {
+    display: block;
+    width: 100%;
+}
+
+.hero-banner .capa-principal {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Celular - mantém a capa mobile completa */
+
+@media (max-width: 768px) {
+    .hero-banner .capa-principal {
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+}
+
+
+/* Mantém a capa mobile independente */
+
+@media (max-width: 768px) {
+
+    .hero-banner .capa-principal {
+        width: 100%;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: contain !important;
+    }
+}
+
+/* Capa desktop compacta e sem cortes */
+
+@media (min-width: 769px) {
+    .hero-banner .capa-principal {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: contain !important;
+    }
+}
+
+/* ==========================================
+   CARD DE CONTATO - ÁREAS DE ATUAÇÃO
+   ========================================== */
+
+.expertise .other-case {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+
+    margin-top: 30px;
+    padding: 30px 35px;
+
+    background: #FFFFFF !important;
+    border: 1px solid #E0E0E0 !important;
+    border-left: 4px solid #550C29 !important;
+    border-radius: 10px !important;
+
+    box-shadow: 0 8px 28px rgba(0,0,0,0.04);
+}
+
+/* Conteúdo */
+
+.expertise .other-case > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.expertise .other-case strong {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #111111 !important;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.expertise .other-case p {
+    margin: 0;
+    color: #444444 !important;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Botão de contato */
+
+.expertise .other-case .areas-contact {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 50px;
+    padding: 12px 22px;
+
+    background: #FFFFFF !important;
+    border: 1px solid #CFCFCF !important;
+    border-radius: 7px !important;
+
+    color: #111111 !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+
+    box-shadow: none !important;
+    transition: all 0.2s ease;
+}
+
+.expertise .other-case .areas-contact:hover {
+    background: #F4F4F4 !important;
+    border-color: #999999 !important;
+    color: #111111 !important;
+    transform: translateY(-2px);
+}
+
+/* Responsividade */
+
+@media (max-width: 720px) {
+
+    .expertise .other-case {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+
+        padding: 25px 22px;
+        margin-top: 25px;
+    }
+
+    .expertise .other-case strong {
+        font-size: 16px;
+    }
+
+    .expertise .other-case p {
+        font-size: 13px;
+    }
+
+    .expertise .other-case .areas-contact {
+        width: 100%;
+        min-height: 48px;
+        white-space: normal;
+    }
+}
